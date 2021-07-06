@@ -1,5 +1,5 @@
 function isCursorOnCloseButton(bx, by, bw, bh){
-	if (mouse_x >= x + bx && mouse_y >= y + by && mouse_x <= x + bx + bw && mouse_y <= y + by + bh) {
+	if (isPointInRect(mouse_x, mouse_y, x + bx, y + by, bw, bh)) {
 		return true;
 	}
 	

@@ -1,3 +1,3 @@
-if (surface_exists(profilesSurface)) {
-	surface_free(profilesSurface);
+if (surface_exists(profiles.surface)) {
+	surface_free(profiles.surface);
 }
