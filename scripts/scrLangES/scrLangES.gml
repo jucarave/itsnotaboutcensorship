@@ -7,4 +7,8 @@ function scrLangES(){
 	
 	global.LANG[? "lang"] = "es";
 	global.LANG[? "profiles"] = "Perfiles";
+	global.LANG[? "age:"] = "Edad: ";
+	global.LANG[? "status:"] = "Estado: ";
+	global.LANG[? "online"] = "Conectado";
+	global.LANG[? "offline"] = "Desconectado";
 }

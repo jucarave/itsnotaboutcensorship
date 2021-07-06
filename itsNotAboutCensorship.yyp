@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"scrCreateProfile","path":"scripts/scrCreateProfile/scrCreateProfile.yy",},"order":2,},
     {"id":{"name":"scrZeroPad","path":"scripts/scrZeroPad/scrZeroPad.yy",},"order":1,},
     {"id":{"name":"loc","path":"scripts/loc/loc.yy",},"order":2,},
+    {"id":{"name":"sprProfNoPic","path":"sprites/sprProfNoPic/sprProfNoPic.yy",},"order":0,},
     {"id":{"name":"sprProfiles","path":"sprites/sprProfiles/sprProfiles.yy",},"order":0,},
     {"id":{"name":"scrPickClickableOnTop","path":"scripts/scrPickClickableOnTop/scrPickClickableOnTop.yy",},"order":2,},
     {"id":{"name":"sprIconSelected","path":"sprites/sprIconSelected/sprIconSelected.yy",},"order":1,},
@@ -15,8 +17,10 @@
     {"id":{"name":"openSansRegular14","path":"fonts/openSansRegular14/openSansRegular14.yy",},"order":0,},
     {"id":{"name":"bckTopBar","path":"sprites/bckTopBar/bckTopBar.yy",},"order":1,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":0,},
+    {"id":{"name":"scrDrawProfiles","path":"scripts/scrDrawProfiles/scrDrawProfiles.yy",},"order":1,},
     {"id":{"name":"bckProfilesApp","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},"order":2,},
     {"id":{"name":"bckWallpaper","path":"sprites/bckWallpaper/bckWallpaper.yy",},"order":0,},
+    {"id":{"name":"scrDrawProfile","path":"scripts/scrDrawProfile/scrDrawProfile.yy",},"order":0,},
     {"id":{"name":"objProfilesApp","path":"objects/objProfilesApp/objProfilesApp.yy",},"order":1,},
     {"id":{"name":"scrLangES","path":"scripts/scrLangES/scrLangES.yy",},"order":0,},
     {"id":{"name":"objCursor","path":"objects/objCursor/objCursor.yy",},"order":1,},
@@ -62,6 +66,8 @@
     {"folderPath":"folders/Objects/Programs.yy","order":3,"resourceVersion":"1.0","name":"Programs","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Cursor.yy","order":2,"resourceVersion":"1.0","name":"Cursor","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Language.yy","order":3,"resourceVersion":"1.0","name":"Language","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Profiles.yy","order":2,"resourceVersion":"1.0","name":"Profiles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Profiles.yy","order":4,"resourceVersion":"1.0","name":"Profiles","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
