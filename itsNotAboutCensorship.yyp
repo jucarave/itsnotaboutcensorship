@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"scrIsPointOnRect","path":"scripts/scrIsPointOnRect/scrIsPointOnRect.yy",},"order":3,},
     {"id":{"name":"scrCreateProfile","path":"scripts/scrCreateProfile/scrCreateProfile.yy",},"order":2,},
     {"id":{"name":"scrZeroPad","path":"scripts/scrZeroPad/scrZeroPad.yy",},"order":1,},
     {"id":{"name":"loc","path":"scripts/loc/loc.yy",},"order":2,},
@@ -23,6 +24,7 @@
     {"id":{"name":"scrDrawProfile","path":"scripts/scrDrawProfile/scrDrawProfile.yy",},"order":0,},
     {"id":{"name":"objProfilesApp","path":"objects/objProfilesApp/objProfilesApp.yy",},"order":1,},
     {"id":{"name":"scrLangES","path":"scripts/scrLangES/scrLangES.yy",},"order":0,},
+    {"id":{"name":"scrExtraColors","path":"scripts/scrExtraColors/scrExtraColors.yy",},"order":2,},
     {"id":{"name":"objCursor","path":"objects/objCursor/objCursor.yy",},"order":1,},
     {"id":{"name":"openSansRegular10","path":"fonts/openSansRegular10/openSansRegular10.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

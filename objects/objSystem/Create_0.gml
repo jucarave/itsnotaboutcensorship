@@ -1,3 +1,5 @@
+scrExtraColors();
+
 hour = 12;
 minutes = 0;
 seconds = 0;
