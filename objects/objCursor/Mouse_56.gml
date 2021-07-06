@@ -1,3 +1,3 @@
-scrPickClickableOnTop(4);
+pickClickableOnTop(4);
 
 anchored = noone;

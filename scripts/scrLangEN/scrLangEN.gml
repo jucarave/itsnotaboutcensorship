@@ -1,4 +1,4 @@
-function scrLangEN(){
+function loadLangEN(){
 	if (global.LANG != noone) {
 		ds_map_destroy(global.LANG);
 	}

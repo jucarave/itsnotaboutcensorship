@@ -1,1 +1,1 @@
-scrDrawClock();
+drawClock();

@@ -1,4 +1,4 @@
-function scrZeroPad(number, length, left){
+function zeroPad(number, length, left){
 	var ret = string(number);
 	
 	while (string_length(ret) < length) {

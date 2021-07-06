@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Language.yy",
   },
   "resourceVersion": "1.0",
-  "name": "loc",
+  "name": "scrLoc",
   "tags": [],
   "resourceType": "GMScript",
 }

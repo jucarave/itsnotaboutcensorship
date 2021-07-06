@@ -1,4 +1,4 @@
-function scrCheckDraggableWindow(){
+function checkDraggableWindow(){
 	if (mouse_y <= y + 24) {
 		objCursor.anchored = id;
 		objCursor.anchor_x = mouse_x - x;

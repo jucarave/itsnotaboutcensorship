@@ -12,5 +12,5 @@ scrollSpeed = 30;
 profiles = array_create(20);
 profilesLength = array_length_1d(profiles);
 for (var i=0;i<profilesLength;i++) {
-	profiles[i] = scrCreateProfile(sprProfNoPic, "Lorem Ipsum", irandom_range(15, 75), choose(true, false));
+	profiles[i] = createProfile(sprProfNoPic, "Lorem Ipsum", irandom_range(15, 75), choose(true, false));
 }

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "System",
-    "path": "folders/Scripts/System.yy",
+    "name": "Cursor",
+    "path": "folders/Scripts/Cursor.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrIsPointOnRect",
+  "name": "scrUpdateDragging",
   "tags": [],
   "resourceType": "GMScript",
 }

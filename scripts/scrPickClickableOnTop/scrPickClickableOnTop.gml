@@ -1,11 +1,11 @@
-function scrPickClickableOnTop(userEvent){
+function pickClickableOnTop(userEvent){
 	var program = noone;
 
 	for (var i=0;i<instance_number(objProgram);i++) {
 		var p = instance_find(objProgram, i);
 		if (!p.active) { continue; }
 	
-		if (mouse_x >= p.x && mouse_x < p.x+p.sprite_width && mouse_y >= p.y && mouse_y < p.y+p.sprite_height) {
+		if (isPointInRect(mouse_x, mouse_y, p.x, p.y, p.sprite_width, p.sprite_height)) {	
 			program = p;
 		}
 	}
@@ -23,7 +23,7 @@ function scrPickClickableOnTop(userEvent){
 	for (var i=0;i<instance_number(objProgramIcon);i++) {
 		var ic = instance_find(objProgramIcon, i);
 	
-		if (mouse_x >= ic.x && mouse_x < ic.x+ic.sprite_width && mouse_y >= ic.y && mouse_y < ic.y+ic.sprite_height) {
+		if (isPointInRect(mouse_x, mouse_y, ic.x, ic.y, ic.sprite_width, ic.sprite_height)) {
 			icon = ic;
 		} else {
 			ic.selected = false;
