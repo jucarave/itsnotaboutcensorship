@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "UI",
-    "path": "folders/Scripts/UI.yy",
+    "name": "System",
+    "path": "folders/Scripts/System.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrCursorOnCloseButton",
+  "name": "scrMacros",
   "tags": [],
   "resourceType": "GMScript",
 }

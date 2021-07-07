@@ -11,4 +11,5 @@ function loadLangES(){
 	global.LANG[? "status:"] = "Estado: ";
 	global.LANG[? "online"] = "Conectado";
 	global.LANG[? "offline"] = "Desconectado";
+	global.LANG[? "btnBack"] = "Volver";
 }

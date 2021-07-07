@@ -11,4 +11,5 @@ function loadLangEN(){
 	global.LANG[? "status:"] = "Status: ";
 	global.LANG[? "online"] = "Online";
 	global.LANG[? "offline"] = "Away";
+	global.LANG[? "btnBack"] = "Back";
 }

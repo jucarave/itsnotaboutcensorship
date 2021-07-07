@@ -1,9 +1,4 @@
 function drawProfiles(){
-	// Rebuild the profiles surfaces if it stopped existing
-	if (!surface_exists(profiles.surface)) {
-		profiles.surface = surface_create(profiles.surfaceSize.w, profiles.surfaceSize.h);
-	}
-
 	surface_set_target(profiles.surface);
 	draw_clear_alpha(c_black, 0);
 

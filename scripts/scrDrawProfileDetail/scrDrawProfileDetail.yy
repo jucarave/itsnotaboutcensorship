@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "UI",
-    "path": "folders/Scripts/UI.yy",
+    "name": "Profiles",
+    "path": "folders/Scripts/Profiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrCursorOnCloseButton",
+  "name": "scrDrawProfileDetail",
   "tags": [],
   "resourceType": "GMScript",
 }
