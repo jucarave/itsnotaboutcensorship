@@ -14,5 +14,11 @@ if (profiles.selected == noone && isPointInRect(mouse_x, mouse_y, x + profiles.p
 		profiles.selected = index;
 		prevScroll = scroll;
 		scroll = 0;
+		exit;
 	}
+}
+
+// Go Back to profiles list
+if (profiles.selected != noone && isCursorOnButton(sprButton, x + backButton._x, y + backButton._y)) {
+	backPressed = true;
 }

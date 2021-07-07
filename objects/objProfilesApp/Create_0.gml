@@ -15,6 +15,7 @@ profiles = {
 };
 
 backButton = { _x: sprite_width / 2, _y: sprite_height - 20 };
+backPressed = false;
 
 prevScroll = 0;
 scroll = 0;
