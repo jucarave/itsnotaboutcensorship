@@ -2,3 +2,5 @@
 
 active = true;
 visible = true;
+
+bringToTop(id);

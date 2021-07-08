@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 839,
   "bbox_top": 0,
   "bbox_bottom": 431,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 256,
+  "width": 840,
   "height": 432,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a6ae39c8-68be-4273-99d9-e9f89c1f469d","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a6ae39c8-68be-4273-99d9-e9f89c1f469d","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},"LayerId":{"name":"f1649945-878c-4105-a5a8-3f1831f6714a","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bckProfilesApp","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},"resourceVersion":"1.0","name":"a6ae39c8-68be-4273-99d9-e9f89c1f469d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"69ccc17f-c490-43c4-9afe-08ed4910391b","path":"sprites/bckEmailApp/bckEmailApp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"69ccc17f-c490-43c4-9afe-08ed4910391b","path":"sprites/bckEmailApp/bckEmailApp.yy",},"LayerId":{"name":"0c7812da-c43f-42f0-91db-ce157aeeb4dd","path":"sprites/bckEmailApp/bckEmailApp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bckEmailApp","path":"sprites/bckEmailApp/bckEmailApp.yy",},"resourceVersion":"1.0","name":"69ccc17f-c490-43c4-9afe-08ed4910391b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"bckProfilesApp","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},
+    "spriteId": {"name":"bckEmailApp","path":"sprites/bckEmailApp/bckEmailApp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"54489a57-f6d4-4742-9325-a3d06e6dfb9a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6ae39c8-68be-4273-99d9-e9f89c1f469d","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b941bc19-a341-4602-9e22-57c23a794988","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69ccc17f-c490-43c4-9afe-08ed4910391b","path":"sprites/bckEmailApp/bckEmailApp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bckProfilesApp","path":"sprites/bckProfilesApp/bckProfilesApp.yy",},
+    "parent": {"name":"bckEmailApp","path":"sprites/bckEmailApp/bckEmailApp.yy",},
     "resourceVersion": "1.3",
-    "name": "bckProfilesApp",
+    "name": "bckEmailApp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1649945-878c-4105-a5a8-3f1831f6714a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c7812da-c43f-42f0-91db-ce157aeeb4dd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Backgrounds/Apps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bckProfilesApp",
+  "name": "bckEmailApp",
   "tags": [],
   "resourceType": "GMSprite",
 }

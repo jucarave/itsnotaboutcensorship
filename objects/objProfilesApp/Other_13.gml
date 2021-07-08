@@ -1,6 +1,8 @@
 /// @description Clicked on
 
-if (isCursorOnCloseButton(226, 4, 27, 16)) {
+event_inherited();
+
+if (isCursorOnCloseButton(226, 4)) {
 	exit;
 }
 

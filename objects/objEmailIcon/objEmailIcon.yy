@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprProfilesIcon",
-    "path": "sprites/sprProfilesIcon/sprProfilesIcon.yy",
+    "name": "sprEmailIcon",
+    "path": "sprites/sprEmailIcon/sprEmailIcon.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/ProgramIcons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objProfilesIcon",
+  "name": "objEmailIcon",
   "tags": [],
   "resourceType": "GMObject",
 }

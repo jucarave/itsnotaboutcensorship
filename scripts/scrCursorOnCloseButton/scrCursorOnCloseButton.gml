@@ -1,5 +1,5 @@
-function isCursorOnCloseButton(bx, by, bw, bh){
-	if (isPointInRect(mouse_x, mouse_y, x + bx, y + by, bw, bh)) {
+function isCursorOnCloseButton(bx, by){
+	if (isPointInRect(mouse_x, mouse_y, x + bx, y + by, 27, 16)) {
 		return true;
 	}
 	

@@ -7,6 +7,7 @@ function loadLangES(){
 	
 	global.LANG[? "lang"] = "es";
 	global.LANG[? "profiles"] = "Perfiles";
+	global.LANG[? "email"] = "Correo";
 	global.LANG[? "age:"] = "Edad: ";
 	global.LANG[? "status:"] = "Estado: ";
 	global.LANG[? "online"] = "Conectado";
