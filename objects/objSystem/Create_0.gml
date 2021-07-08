@@ -9,3 +9,8 @@ alarm[0] = room_speed / timeScale;
 
 global.LANG = noone;
 loadLangEN();
+
+
+colTop = make_color_rgb(84, 0, 104);
+colBottom = make_color_rgb(163, 11, 74);
+colBar = make_color_rgb(23, 23, 23);
