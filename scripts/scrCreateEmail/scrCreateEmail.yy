@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Profiles",
-    "path": "folders/Scripts/Apps/Profiles.yy",
+    "name": "Email",
+    "path": "folders/Scripts/Apps/Email.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrCreateProfile",
+  "name": "scrCreateEmail",
   "tags": [],
   "resourceType": "GMScript",
 }

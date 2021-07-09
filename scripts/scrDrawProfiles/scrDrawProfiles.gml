@@ -5,7 +5,7 @@ function drawProfiles(){
 	// Draw all the profiles
 	for (var i=0;i<profiles.listLength;i++) {
 		// If the cursor is on a profile, then draw a gray background
-		if (isPointInRect(mouse_x, mouse_y, x + profiles.pos._x, y + profiles.pos._y, profiles.pos.w, profiles.pos.h) &&
+		if (active && isPointInRect(mouse_x, mouse_y, x + profiles.pos._x, y + profiles.pos._y, profiles.pos.w, profiles.pos.h) &&
 			isPointInRect(0, (mouse_y - (y + profiles.pos._y)), 0, profiles.size.h * i - scroll, profiles.size.w, profiles.size.h)) {
 			draw_set_color(global.C_LIGHT_GRAY);
 			draw_rectangle(0, i * profiles.size.h - scroll, profiles.size.w, i * profiles.size.h + profiles.size.h - scroll, false);

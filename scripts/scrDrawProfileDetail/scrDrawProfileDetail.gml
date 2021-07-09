@@ -16,7 +16,8 @@ function drawProfileDetail(profile){
 	draw_text(73, 36 - scroll, loc("status:") + (profile.online ? loc("online") : loc("offline")));
 	
 	// Full bio
-	draw_text_ext(3, profiles.size.h - scroll, profile.bio, 12, profiles.detail.w - 6);
+	draw_set_font(openSansRegular12);
+	draw_text_ext(3, profiles.size.h - scroll, profile.bio, 16, profiles.detail.w - 6);
 	
 	draw_set_color(c_white);
 	
