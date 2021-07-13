@@ -7,6 +7,8 @@ timeScale = 5;
 
 alarm[0] = room_speed / timeScale;
 
+global.LOAD_CITY = noone;
+
 global.LANG = noone;
 loadLangEN();
 

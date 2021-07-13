@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ProgramIcons",
-    "path": "folders/Objects/ProgramIcons.yy",
+    "name": "Icons",
+    "path": "folders/Objects/Icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "objEmailIcon",

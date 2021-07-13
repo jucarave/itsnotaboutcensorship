@@ -1,11 +1,6 @@
 /// @description Draw
 
-draw_self();
-
-draw_sprite_ext(objProfilesIcon.sprite_index, 0, x + 2, y + 2, 0.3125, 0.3125, 0, c_white, 1);
-
-draw_set_font(openSansRegular14);
-draw_text(x + 26, y + 2, loc("profiles"));
+event_inherited();
 
 // Rebuild the profiles surfaces if it stopped existing
 if (!surface_exists(profiles.surface)) {

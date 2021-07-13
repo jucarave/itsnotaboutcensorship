@@ -1,5 +1,8 @@
 event_inherited();
 
+appName = "email";
+appIcon = sprEmailIcon;
+
 emails = {
 	count: 3,
 	list: array_create(3),

@@ -1,6 +1,9 @@
 // Inherit the parent event
 event_inherited();
 
+appName = "profiles";
+appIcon = sprProfilesIcon;
+
 profiles = {
 	pos: { _x: 2, _y: 24, w: 252, h: 406 },
 	detail: { _x: 2, _y: 24, w: 252, h: 370 },
